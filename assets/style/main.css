@@ -85,11 +85,6 @@ img {
     width: calc(100% - 2rem);
     margin: 0 auto;
   }
-}
-/* #header ここまで */
-
-/* .menu ここから */
-@media (max-width:767px) {
   .menu {
     width: calc(100% - 2rem);
     margin: 0 auto;
@@ -130,4 +125,4 @@ img {
   }
 }
 
-/* .menu ここまで */
+/* #header ここまで */
