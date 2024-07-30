@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+/* 共通 ここから */
+:root {
+  --color-white: #FFFFFF;
+  --color-green-dark: #168352;
+  --color-green-darker: #066655;
+  --color-green-light: #09947B;
+  --color-grey-light: #DDDDDD;
+  --color-brown: #473221;
+  --color-dark-grey: #222222;
+  --color-black: #000000;
+  --color-background-light: #F3F9F6;
+  --color-grey-dark: #111111;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--color-grey-dark);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* 共通 ここまで */
