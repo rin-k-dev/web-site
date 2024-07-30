@@ -64,7 +64,7 @@ img {
     height: 3.9375rem;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 999;
   }
   #header .header__container {
     width: calc(100% - 2rem);
@@ -101,6 +101,7 @@ img {
     top: 3.9375rem;
     right: -120%;
     transition: all .3s;
+    z-index: 999;
   }
   .menu.open {
     right: 1rem;
