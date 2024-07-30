@@ -56,3 +56,34 @@ img {
   font-style: normal;
 }
 /* 共通 ここまで */
+
+/* #header ここから */
+@media (max-width:767px) {
+  #header {
+    width: 100%;
+    height: 3.9375rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  #header .header__container {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+  }
+  #header .pc_only.header__logo {
+    display: none;
+  }
+  #header .sp_only.header__logo {
+    display: inline-block;
+    width: 12.3125rem;
+  }
+  #header .header__menu {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+  }
+}
+/* #header ここまで */
