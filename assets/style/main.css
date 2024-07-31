@@ -676,8 +676,12 @@ img {
 /* #about-us ここまで */
 
 /* #features ここから */
+#features .features__wrapper {
+  width: 100%;
+  background-color: var(--color-background-light);
+}
 #features .features__title {
-  margin-top: 5.4375rem;
+  padding-top: 5.4375rem;
 }
 #features .features__english-text {
   display: block;
@@ -695,5 +699,31 @@ img {
   color: var(--color-black);
   text-align: center;
   margin-top: 0.625rem;
+}
+#features .features__container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  margin-top: 1.375rem;
+}
+#features .features__content {
+  width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+#features .features__content-photo {
+  width: 100%;
+  object-fit: cover;
+}
+#features .features__content-text {
+  font-size: 1.125rem;
+  line-height: 1.67;
+  font-weight: 700;
+  color: var(--color-dark-grey);
+  letter-spacing: 0;
+  padding-left: 0.875rem;
+  padding: 16px;
+  text-align: left;
+  margin-top: -0.625rem;
 }
 /* #features ここまで */
