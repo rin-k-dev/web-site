@@ -501,6 +501,7 @@ img {
   }
   #about-us .about-us__container {
     width: calc(100% - 14.5rem);
+    max-width: 1168px;
     padding: 0;
     margin: 0 auto;
     padding-left: 6.25rem;
