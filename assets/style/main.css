@@ -679,6 +679,7 @@ img {
 #features .features__wrapper {
   width: 100%;
   background-color: var(--color-background-light);
+  padding-bottom: 3.4375rem;
 }
 #features .features__title {
   padding-top: 5.4375rem;
@@ -705,11 +706,18 @@ img {
   margin: 0 auto;
   margin-top: 1.375rem;
 }
+#features .features__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
 #features .features__content {
   width: 100%;
   border-radius: 24px;
   overflow: hidden;
   background-color: var(--color-white);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
 }
 #features .sp_only.features__content-photo {
   display: inline-block;
