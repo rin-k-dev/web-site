@@ -65,6 +65,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 999;
+    background-color: var(--color-white);
   }
   #header .header__container {
     width: calc(100% - 2rem);
@@ -138,6 +139,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 999;
+    background-color: var(--color-white);
   }
   #header .header__container {
     width: calc(100% - 14.5rem);
@@ -195,6 +197,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 999;
+    background-color: var(--color-white);
   }
   #header .header__container {
     width: calc(100% - 2.5rem);
@@ -246,5 +249,157 @@ img {
 /* #header ここまで */
 
 /* #introduction ここから */
+#introduction .introduction__container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  padding-top: 1.1875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.9375rem;
+}
+#introduction .introduction__title {
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--color-black);
+  text-align: left;
+}
+#introduction .introduction__text {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0;
+  color: var(--color-black);
+  text-align: left;
+  margin-top: -0.1875rem;
+}
+#introduction .introduction__text br.sp_only {
+  display: inline-block;
+}
+#introduction .introduction__main-visual-photo-container {
+  width: calc(100% - 2rem);
+  height: 28.125rem;
+  margin: 0 auto;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-top: 31px;
+}
+#introduction .sp_only.introduction__main-visual-photo {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#introduction .pc_only.introduction__main-visual-photo {
+  display: none;
+}
 
+@media(min-width:1301px) {
+  #introduction .introduction__container {
+    width: calc(100% - 14.5rem);
+    max-width: 1168px;
+    margin: 0 auto;
+    padding-top: 1.1875rem;
+    padding-left: 2.125rem;
+    padding-right: 2rem;
+    margin-top: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 8.1875rem;
+    justify-content: space-between;
+  }
+  #introduction .introduction__title {
+    font-size: 2.5rem;
+    line-height: .975;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    white-space: nowrap;
+  }
+  #introduction .introduction__text {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.53;
+    letter-spacing: 0;
+    color: var(--color-black);
+    display: inline-block;
+    margin-top: -0.1563rem;
+  }
+  #introduction .introduction__text br.sp_only {
+    display: none;
+  }
+  #introduction .introduction__main-visual-photo-container {
+    width: calc(100% - 14.5rem);
+    max-width: 1168px;
+    height: 34.375rem;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 3.9375rem;
+  }
+  #introduction .sp_only.introduction__main-visual-photo {
+    display: none;
+  }
+  #introduction .pc_only.introduction__main-visual-photo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1300px) {
+  #introduction .introduction__container {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    padding-top: 1.1875rem;
+    padding-left: 2.125rem;
+    padding-right: 2rem;
+    margin-top: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+  #introduction .introduction__title {
+    font-size: 2.5rem;
+    line-height: .975;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    white-space: nowrap;
+  }
+  #introduction .introduction__text {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.53;
+    letter-spacing: 0;
+    color: var(--color-black);
+    display: inline-block;
+    margin-top: -0.1563rem;
+  }
+  #introduction .introduction__text br.sp_only {
+    display: none;
+  }
+  #introduction .introduction__main-visual-photo-container {
+    width: calc(100% - 2rem);
+    height: 34.375rem;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 3.9375rem;
+  }
+  #introduction .sp_only.introduction__main-visual-photo {
+    display: none;
+  }
+  #introduction .pc_only.introduction__main-visual-photo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 /* #introduction ここまで */
