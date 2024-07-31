@@ -436,10 +436,12 @@ img {
   margin-top: 1.5rem;
   width: 100%;
   height: auto;
+  max-height: 545px;
 }
 #about-us .sp_only.about-us__photo {
   display: inline-block;
   width: 100%;
+  max-height: 545px;
   object-fit: cover;
   aspect-ratio: 390 / 545;
 }
@@ -455,7 +457,7 @@ img {
   background-color: rgba(255, 255, 255, .8);
   padding-top: 1rem;
   padding-bottom: 1.25rem;
-  margin-top: -32.625rem;
+  margin-top: -32.25rem;
 }
 #about-us .about-us__content-subtitle {
   font-size: 1.125rem;
