@@ -674,3 +674,26 @@ img {
   }
 }
 /* #about-us ここまで */
+
+/* #features ここから */
+#features .features__title {
+  margin-top: 5.4375rem;
+}
+#features .features__english-text {
+  display: block;
+  font-size: 1rem;
+  line-height: .8125;
+  font-weight: 600;
+  color: var(--color-green-dark);
+  text-align: center;
+}
+#features .features__japanese-text {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 0.625rem;
+}
+/* #features ここまで */
