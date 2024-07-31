@@ -443,6 +443,9 @@ img {
   object-fit: cover;
   aspect-ratio: 390 / 545;
 }
+#about-us .pc_only.about-us__photo {
+  display: none;
+}
 #about-us .about-us__content {
   width: calc(100% - 2rem);
   height: auto;
@@ -473,5 +476,98 @@ img {
   padding-left: 6.7%;
   padding-right: 9.2%;
   margin-top: 0.375rem;
+}
+
+@media (min-width:768px) {
+  #about-us .about-us__title {
+    margin-top: 4rem;
+  }
+  #about-us .about-us__english-text {
+    display: block;
+    font-size: 1.25rem;
+    line-height: .8;
+    font-weight: 600;
+    color: var(--color-green-dark);
+    text-align: center;
+  }
+  #about-us .about-us__japanese-text {
+    display: block;
+    font-size: 1.75rem;
+    line-height: .93;
+    font-weight: 700;
+    color: var(--color-black);
+    text-align: center;
+    margin-top: 1.25rem;
+  }
+  #about-us .about-us__container {
+    width: calc(100% - 14.5rem);
+    padding: 0;
+    margin: 0 auto;
+    padding-left: 6.25rem;
+    padding-right: 7.1875rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #about-us .about-us__photo-container {
+    margin-top: 2.0625rem;
+    width: 24.375rem;
+    height: 35.625rem;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  #about-us .sp_only.about-us__photo {
+    display: none;
+  }
+  #about-us .pc_only.about-us__photo {
+    display: inline-block;
+    width: 24.375rem;
+    object-fit: cover;
+    aspect-ratio: 390 / 570;
+  }
+  #about-us .about-us__content {
+    width: 25.3125rem;
+    height: auto;
+    margin: 0;
+    border-radius: 0px;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, .8);
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+  #about-us .about-us__content-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    font-weight: 700;
+    color: var(--color-grey-dark);
+    text-align: left;
+    padding-left: 0;
+    padding-right: 1.25rem;
+    margin-top: 0;
+  }
+  #about-us .about-us__content-subtitle .break {
+    display: block;
+  }
+  #about-us .about-us__content-subtitle .nobreak {
+    white-space: nowrap;
+  }
+  #about-us .about-us__content-text {
+    display: block;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--color-grey-dark);
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+  }
 }
 /* #about-us ここまで */
