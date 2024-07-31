@@ -738,7 +738,7 @@ img {
   margin-top: -0.625rem;
 }
 
-@media (min-width:768px) {
+@media (min-width:1301px) {
   #features .features__wrapper {
     width: 100%;
     background-color: var(--color-background-light);
@@ -779,6 +779,73 @@ img {
   }
   #features .features__content {
     width: 23.0625rem;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  }
+  #features .sp_only.features__content-photo {
+    display: none;
+  }
+  #features .pc_only.features__content-photo {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+  }
+  #features .features__content-text {
+    font-size: 1.1875rem;
+    line-height: 1.52;
+    font-weight: 700;
+    color: var(--color-dark-grey);
+    letter-spacing: 0;
+    padding: 1.25rem;
+    text-align: left;
+    margin-top: -0.625rem;
+  }
+}
+
+@media (min-width:768px) and (max-width:1300px) {
+  #features .features__wrapper {
+    width: 100%;
+    background-color: var(--color-background-light);
+    padding-bottom: 3.9375rem;
+    margin-top: 4.0625rem;
+  }
+  #features .features__title {
+    padding-top: 4.0625rem;
+  }
+  #features .features__english-text {
+    display: block;
+    font-size: 1.25rem;
+    line-height: .75;
+    font-weight: 600;
+    color: var(--color-green-dark);
+    text-align: center;
+  }
+  #features .features__japanese-text {
+    display: block;
+    font-size: 1.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--color-black);
+    text-align: center;
+    margin-top: 1.1875rem;
+  }
+  #features .features__container {
+    width: calc(100% - 2.5rem);
+    margin: 0 auto;
+    margin-top: 1.875rem;
+  }
+  #features .features__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.75rem;
+    width: 100%;
+  }
+  #features .features__content {
+    width: 23.0625rem;
+    margin: 0 auto;
     border-radius: 24px;
     overflow: hidden;
     background-color: var(--color-white);
