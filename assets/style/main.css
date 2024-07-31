@@ -403,3 +403,72 @@ img {
   }
 }
 /* #introduction ここまで */
+
+/* #about-us ここから */
+#about-us .about-us__title {
+  margin-top: 3.5rem;
+}
+#about-us .about-us__english-text {
+  display: block;
+  font-size: 1rem;
+  line-height: .8125;
+  font-weight: 600;
+  color: var(--color-green-dark);
+  text-align: center;
+}
+#about-us .about-us__japanese-text {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 0.625rem;
+}
+#about-us .about-us__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#about-us .about-us__photo-container {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 34.0625rem;
+}
+#about-us .sp_only.about-us__photo {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#about-us .about-us__content {
+  width: calc(100% - 2rem);
+  height: 30.0625rem;
+  margin: 0 auto;
+  border-radius: 32px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, .8);
+  padding-top: 1rem;
+  padding-bottom: 1.4375rem;
+  margin-top: -132%;
+}
+#about-us .about-us__content-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.77;
+  font-weight: 700;
+  color: var(--color-grey-dark);
+  text-align: left;
+  padding-left: 1.5rem;
+  padding-right: 1.75rem;
+}
+#about-us .about-us__content-text {
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  font-weight: 400;
+  color: var(--color-grey-dark);
+  text-align: left;
+  padding-left: 1.5rem;
+  padding-right: 2.0625rem;
+  margin-top: 6px;
+}
+/* #about-us ここまで */
