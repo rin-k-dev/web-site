@@ -711,9 +711,13 @@ img {
   overflow: hidden;
   background-color: var(--color-white);
 }
-#features .features__content-photo {
+#features .sp_only.features__content-photo {
+  display: inline-block;
   width: 100%;
   object-fit: cover;
+}
+#features .pc_only.features__content-photo {
+  display: none;
 }
 #features .features__content-text {
   font-size: 1.125rem;
