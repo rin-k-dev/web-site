@@ -1385,3 +1385,25 @@ img {
   }
 }
 /* #case ここまで */
+
+/* #news ここから */
+#news .news__english-text {
+  display: block;
+  font-size: 1rem;
+  line-height: .8125;
+  font-weight: 600;
+  color: var(--color-green-dark);
+  text-align: center;
+  padding-top: 3.3125rem;
+}
+#news .news__japanese-text {
+  display: block;
+  font-size: 1.25rem;
+  line-height: .95;
+  font-weight: 700;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 0.4375rem;
+  margin-bottom: 1.5rem;
+}
+/* #news ここまで */
