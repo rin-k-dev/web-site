@@ -1702,6 +1702,7 @@ img {
   padding-top: 1.5rem;
 }
 #footer .footer__link-spec, #footer .footer__link-faq {
+  cursor: pointer;
   font-size: 0.8125rem;
   line-height: 1.08;
   font-weight: 400;
@@ -1731,6 +1732,7 @@ img {
     padding-top: 2.25rem;
   }
   #footer .footer__link-spec {
+    cursor: pointer;
     font-size: 0.9375rem;
     line-height: 1;
     font-weight: 400;
@@ -1738,6 +1740,7 @@ img {
     color: var(--color-white);
   }
   #footer .footer__link-faq {
+    cursor: pointer;
     font-size: 0.875rem;
     line-height: 1;
     font-weight: 400;
