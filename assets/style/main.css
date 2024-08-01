@@ -1624,4 +1624,32 @@ img {
     height: 3.8125rem;
   }
 }
+
+#news .news__link-container {
+  cursor: pointer;
+  width: 18.75rem;
+  height: 4.125rem;
+  background-color: var(--color-green-light);
+  border-radius: 33px;
+  box-shadow: 0 5px 0 var(--color-green-darker);
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  position: relative;
+}
+#news .news__link {
+  font-size: 1.125rem;
+  line-height: 1;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: var(--color-white);
+}
+#news .news__link-container:hover {
+  top: 3px;
+  box-shadow: 0 2px 0 var(--color-green-darker);
+}
+
 /* #news ここまで */
