@@ -917,8 +917,8 @@ img {
   border-radius: 24px;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
-  gap: 1.125rem;
+  justify-content: normal;
+  gap: 1.0625rem;
 }
 #products .products__content-wrapper-1 > .products__content:first-child {
   padding: 1.25rem 3.125rem 1.25rem 1.5rem;
