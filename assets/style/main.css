@@ -1151,7 +1151,7 @@ img {
     overflow: visible;
     object-fit: cover;
     aspect-ratio: 100 / 100;
-    transform: scale(0.87);
+    transform: scale(0.827);
   }
   #products .products__content .products__text {
     letter-spacing: 0;
