@@ -1147,7 +1147,7 @@ img {
   #products .products__content-wrapper-1 > .products__content:first-child .pc_only.products__photo,
   #products .products__content-wrapper-1 > .products__content:nth-child(2) .pc_only.products__photo {
     display: inline-block;
-    width: 82.7%;
+    width: 100%;
     overflow: visible;
     object-fit: cover;
     aspect-ratio: 100 / 100;
