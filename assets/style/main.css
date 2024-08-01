@@ -918,6 +918,7 @@ img {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  gap: 1.125rem;
 }
 #products .products__content-wrapper-1 > .products__content:first-child {
   padding: 1.25rem 3.125rem 1.25rem 1.5rem;
@@ -960,7 +961,8 @@ img {
 #products .products__content-wrapper-2 > .products__content:first-child .products__text,
 #products .products__content-wrapper-2 > .products__content:nth-child(2) .products__text,
 #products .products__content-wrapper-2 > .products__content:nth-child(3) .products__text {
-  padding-left: 1.125rem;
+  padding-left: 0;
+  text-align: left;
 }
 @media (min-width:1381px) {
   #products .products__english-text {
