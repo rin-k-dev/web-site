@@ -1295,13 +1295,13 @@ img {
     overflow: hidden;
   }
   #case .sp_only.case__content-photo {
+    display: none;
+  }
+  #case .pc_only.case__content-photo {
     display: inline-block;
     width: 100%;
     height: 100%;
-    aspect-ratio: 358 / 201;
-  }
-  #case .pc_only.case__content-photo {
-    display: none;
+    aspect-ratio: 369 / 226;
   }
   #case .case__content-text {
     font-size: 1.1875rem;
