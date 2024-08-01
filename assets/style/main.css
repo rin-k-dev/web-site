@@ -877,3 +877,25 @@ img {
   }
 }
 /* #features ここまで */
+
+/* #products ここから */
+#products .products__english-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 600;
+  color: var(--color-green-dark);
+  text-align: center;
+  padding-top: 3.625rem;
+}
+#products .products__japanese-text {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 0.625rem;
+  margin-bottom: 1.4375rem;
+}
+/* #products ここまで */
