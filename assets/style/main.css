@@ -1234,6 +1234,7 @@ img {
   display: inline-block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   aspect-ratio: 358 / 201;
 }
 #case .pc_only.case__content-photo {
@@ -1301,6 +1302,7 @@ img {
     display: inline-block;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     aspect-ratio: 369 / 226;
   }
   #case .case__content-text {
@@ -1368,6 +1370,7 @@ img {
     display: inline-block;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     aspect-ratio: 369 / 226;
   }
   #case .case__content-text {
