@@ -2357,6 +2357,9 @@ img {
     justify-content: center;
     align-items: center;
   }
+  #spec #feature .feature__wrapper .feature__content {
+
+  }
   #spec #feature .feature__wrapper .feature__content:nth-child(2) {
     margin-top: 0;
   }
@@ -2364,7 +2367,7 @@ img {
     margin-top: 0;
   }
   #spec #feature .feature__photo-container {
-    width: 45.5rem;
+    width: calc(100% - 2.5rem);
     height: auto;
     border-radius: 16px;
     overflow: hidden;
