@@ -1774,5 +1774,14 @@ img {
 #spec #main-visual .pc_only.main-visual__photo {
   display: none;
 }
+#spec #main-visual .main-visual__title {
+  font-size: 1.875rem;
+  line-height: .97;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: var(--color-black);
+  text-align: left;
+  margin-top: 1.9375rem;
+}
 /* #main-visual ここまで */
 /* #spec ここまで */
