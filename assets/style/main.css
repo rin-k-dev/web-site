@@ -2302,17 +2302,6 @@ img {
     aspect-ratio: 246 / 150;
   }
   #spec #feature .feature__text-container {
-    margin-top: 0.8438rem;
-  }
-  #spec #feature .feature__wrapper .feature__content:first-child .feature__text-container {
-    margin-top: 0.8125rem;
-    display: inline-block;
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container {
-    margin-top: 0.8125rem;
-    display: inline-block;
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(3) .feature__text-container {
     margin-top: 0.8125rem;
     display: inline-block;
   }
@@ -2366,17 +2355,6 @@ img {
     aspect-ratio: 246 / 150;
   }
   #spec #feature .feature__text-container {
-    margin-top: 0.8438rem;
-  }
-  #spec #feature .feature__wrapper .feature__content:first-child .feature__text-container {
-    margin-top: 0.8125rem;
-    display: block;
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container {
-    margin-top: 0.8125rem;
-    display: block;
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(3) .feature__text-container {
     margin-top: 0.8125rem;
     display: block;
   }
