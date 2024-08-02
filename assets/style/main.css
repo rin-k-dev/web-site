@@ -2231,12 +2231,7 @@ img {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-}
-#spec #feature .feature__wrapper .feature__content:nth-child(2) {
-  margin-top: 2.5rem;
-}
-#spec #feature .feature__wrapper .feature__content:nth-child(3) {
-  margin-top: 2.5rem;
+  gap: 2.5rem;
 }
 #spec #feature .feature__photo-container {
   width: 100%;
