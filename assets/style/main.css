@@ -2352,8 +2352,10 @@ img {
   #spec #feature .feature__wrapper {
     margin-top: 2.1875rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1.9375rem;
+    justify-content: center;
+    align-items: center;
   }
   #spec #feature .feature__wrapper .feature__content:nth-child(2) {
     margin-top: 0;
@@ -2362,8 +2364,8 @@ img {
     margin-top: 0;
   }
   #spec #feature .feature__photo-container {
-    width: 15.375rem;
-    height: 9.375rem;
+    width: 45.5rem;
+    height: auto;
     border-radius: 16px;
     overflow: hidden;
   }
@@ -2408,7 +2410,7 @@ img {
     display: none;
   }
   #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.pc_only {
-    display: block;
+    display: inline;
   }
 }
 /* #feature ここまで */
