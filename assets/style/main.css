@@ -2358,16 +2358,11 @@ img {
     align-items: center;
   }
   #spec #feature .feature__wrapper .feature__content {
-
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(2) {
-    margin-top: 0;
-  }
-  #spec #feature .feature__wrapper .feature__content:nth-child(3) {
-    margin-top: 0;
+    width: 100%;
+    margin: 0 auto;
   }
   #spec #feature .feature__photo-container {
-    width: calc(100% - 2.5rem);
+    width: 100%;
     height: auto;
     border-radius: 16px;
     overflow: hidden;
@@ -2387,15 +2382,15 @@ img {
   }
   #spec #feature .feature__wrapper .feature__content:first-child .feature__text-container {
     margin-top: 0.8125rem;
-    display: inline-block;
+    display: block;
   }
   #spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container {
     margin-top: 0.8125rem;
-    display: inline-block;
+    display: block;
   }
   #spec #feature .feature__wrapper .feature__content:nth-child(3) .feature__text-container {
     margin-top: 0.8125rem;
-    display: inline-block;
+    display: block;
   }
   #spec #feature .sp_only.feature__text {
     display: none;
@@ -2413,7 +2408,7 @@ img {
     display: none;
   }
   #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.pc_only {
-    display: inline;
+    display: inline-block;
   }
 }
 /* #feature ここまで */
