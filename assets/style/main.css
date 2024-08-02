@@ -2178,7 +2178,7 @@ img {
     margin: 0 auto;
   }
   #spec #feature .feature__title-container {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   #spec #feature .feature__title {
     font-size: 1.75rem;
@@ -2206,7 +2206,7 @@ img {
     margin: 0 auto;
   }
   #spec #feature .feature__title-container {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   #spec #feature .feature__title {
     font-size: 1.75rem;
@@ -2416,6 +2416,63 @@ img {
   font-weight: 700;
   letter-spacing: 0;
   color: var(--color-black);
+}
+
+@media (min-width:1201px) {
+  #spec #price .price__container {
+    width: calc(100% - 37.5rem);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  #spec #price .price__title-container {
+    margin-top: 4.125rem;
+  }
+  #spec #price .price__title {
+    font-size: 1.75rem;
+    line-height: .79;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    padding-bottom: 1.8125rem;
+    border-bottom: var(--color-grey-light) 2px solid;
+    position: relative;
+  }
+  #spec #price .price__title::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 6.25rem;
+    height: 5px;
+    background-color: var(--color-green-dark);
+  }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+  #spec #price .price__container {
+    width: calc(100% - 2.5rem);
+    margin: 0 auto;
+  }
+  #spec #price .price__title-container {
+    margin-top: 4.125rem;
+  }
+  #spec #price .price__title {
+    font-size: 1.75rem;
+    line-height: .79;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    padding-bottom: 1.8125rem;
+    border-bottom: var(--color-grey-light) 2px solid;
+    position: relative;
+  }
+  #spec #price .price__title::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 6.25rem;
+    height: 5px;
+    background-color: var(--color-green-dark);
+  }
 }
 /* #price ここまで */
 /* #spec ここまで */
