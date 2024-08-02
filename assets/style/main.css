@@ -2144,5 +2144,33 @@ img {
 }
 /* #gallery ここまで */
 
+/* #feature ここから */
+#spec #feature .feature__container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+#spec #feature .feature__title-container {
+  margin-top: 2.25rem;
+}
+#spec #feature .feature__title {
+  font-size: 1.375rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--color-black);
+  padding-bottom: 0.6875rem;
+  border-bottom: var(--color-grey-light) 2px solid;
+  position: relative;
+}
+#spec #feature .feature__title::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  width: 13.97%;
+  height: 3px;
+  background-color: var(--color-green-dark);
+}
+/* #feature ここまで */
+
 /* #spec ここまで */
 
