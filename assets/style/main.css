@@ -74,11 +74,16 @@ img {
   height: 10px;
 }
 .breadcrumb .breadcrumb__link {
+  cursor: pointer;
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
   color: var(--color-black);
+  transition: all .3s ease-out;
+}
+.breadcrumb .breadcrumb__link:hover {
+  opacity: .7;
 }
 
 @media (min-width:1201px) {
