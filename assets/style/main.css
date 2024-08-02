@@ -2097,7 +2097,7 @@ img {
 
 @media (min-width:768px) {
   #spec #gallery .gallery__content-wrapper {
-    margin-top: 2rem;
+    margin-top: 2.1875rem;
     margin-bottom: 4.4375rem;
   }
   #spec #gallery .gallery_photo-container {
@@ -2113,8 +2113,33 @@ img {
     display: inline-block;
     vertical-align: top;
     width: 100%;
+    height: 100%;
     aspect-ratio: 800 / 499.94;
     object-fit: cover;
+  }
+  #spec #gallery .gallery__dots {
+    position: absolute;
+    bottom: 1.375rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #spec #gallery .gallery__dots li {
+    font-size: 0;
+  }
+  #spec #gallery .gallery__dots {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+  }
+  #spec #gallery .gallery__dots li::before {
+    content: url("../image/spec/spec_gallery_nonactive_dot.png");
+    width: 8px;
+    height: 8px;
+  }
+  #spec #gallery .gallery__dots li.slick-active::before {
+    content: url("../image/spec/spec_gallery_active_dot.png");
+    width: 8px;
+    height: 8px;
   }
 }
 /* #gallery ここまで */
