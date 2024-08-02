@@ -2045,6 +2045,26 @@ img {
     background-color: var(--color-green-dark);
   }
 }
+
+#spec #gallery .gallery__content-wrapper {
+  margin-top: 1.5rem;
+  margin-bottom: 3.9375rem;
+}
+#spec #gallery .gallery_photo-container {
+  width: 100%;
+  height: 14.8106rem;
+  border-radius: 24px;
+  overflow: hidden;
+}
+#spec #gallery .sp_only.gallery__photo {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  aspect-ratio: 358 / 236.97;
+}
+#spec #gallery .pc_only.gallery__photo {
+  display: none;
+}
 /* #gallery ここまで */
 
 /* #spec ここまで */
