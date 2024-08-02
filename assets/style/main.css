@@ -2445,6 +2445,23 @@ img {
     height: 5px;
     background-color: var(--color-green-dark);
   }
+  #spec #price .price__text {
+    margin-top: 2.0625rem;
+  }
+  #spec #price .price__text .price__yen {
+    font-size: 2rem;
+    line-height: .75;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+  }
+  #spec #price .price__text .price__tax {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+  }
 }
 
 @media (min-width:768px) and (max-width:1200px) {
@@ -2472,6 +2489,23 @@ img {
     width: 6.25rem;
     height: 5px;
     background-color: var(--color-green-dark);
+  }
+  #spec #price .price__text {
+    margin-top: 2.0625rem;
+  }
+  #spec #price .price__text .price__yen {
+    font-size: 2rem;
+    line-height: .75;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+  }
+  #spec #price .price__text .price__tax {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
   }
 }
 /* #price ここまで */
