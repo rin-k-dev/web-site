@@ -2061,6 +2061,7 @@ img {
   vertical-align: top;
   width: 100%;
   aspect-ratio: 358 / 236.97;
+  object-fit: cover;
 }
 #spec #gallery .pc_only.gallery__photo {
   display: none;
