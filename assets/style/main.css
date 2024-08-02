@@ -2055,6 +2055,10 @@ img {
   height: 14.8106rem;
   border-radius: 24px;
   overflow: hidden;
+  position: relative;
+}
+#spec #gallery .gallery__content {
+  cursor: pointer;
 }
 #spec #gallery .sp_only.gallery__photo {
   display: inline-block;
@@ -2065,6 +2069,30 @@ img {
 }
 #spec #gallery .pc_only.gallery__photo {
   display: none;
+}
+#spec #gallery .gallery__dots {
+  position: absolute;
+  bottom: 2.8%;
+  left: 50%;
+  transform: translate(-50%, -2.8%);
+}
+#spec #gallery .gallery__dots li {
+  font-size: 0;
+}
+#spec #gallery .gallery__dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+#spec #gallery .gallery__dots li::before {
+  content: url("../image/spec/spec_gallery_nonactive_dot.png");
+  width: 8px;
+  height: 8px;
+}
+#spec #gallery .gallery__dots li.slick-active::before {
+  content: url("../image/spec/spec_gallery_active_dot.png");
+  width: 8px;
+  height: 8px;
 }
 
 @media (min-width:768px) {
