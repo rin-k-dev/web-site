@@ -2229,6 +2229,9 @@ img {
 }
 #spec #feature .feature__wrapper {
   margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 #spec #feature .feature__photo-container {
   width: 100%;
@@ -2256,6 +2259,9 @@ img {
   letter-spacing: 0;
   color: var(--color-black);
   text-align: left;
+}
+#spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container .feature__text span.sp_only {
+  display: inline-block;
 }
 /* #feature ここまで */
 
