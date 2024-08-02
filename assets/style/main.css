@@ -55,6 +55,31 @@ img {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
+
+.breadcrumb-container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin-top: 1.5rem;
+  justify-content: flex-end;
+}
+.breadcrumb li:not(:last-of-type)::after {
+  content: url("../image/common/arrow.png");
+  margin: 0.4375rem;
+  width: 5px;
+  height: 10px;
+}
+.breadcrumb .breadcrumb__link {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  color: var(--color-black);
+}
 /* 共通 ここまで */
 
 /* #header ここから */
@@ -1875,4 +1900,7 @@ img {
   }
 }
 /* #main-visual ここまで */
+
+
 /* #spec ここまで */
+
