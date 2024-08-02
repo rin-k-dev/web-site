@@ -2231,7 +2231,12 @@ img {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+}
+#spec #feature .feature__wrapper .feature__content:nth-child(2) {
+  margin-top: 2.5rem;
+}
+#spec #feature .feature__wrapper .feature__content:nth-child(3) {
+  margin-top: 2.5rem;
 }
 #spec #feature .feature__photo-container {
   width: 100%;
@@ -2252,6 +2257,18 @@ img {
 #spec #feature .feature__text-container {
   margin-top: 0.8438rem;
 }
+#spec #feature .feature__wrapper .feature__content:first-child .feature__text-container {
+  margin-top: 0.8125rem;
+  display: inline-block;
+}
+#spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container {
+  margin-top: 0.8125rem;
+  display: inline-block;
+}
+#spec #feature .feature__wrapper .feature__content:nth-child(3) .feature__text-container {
+  margin-top: 0.8125rem;
+  display: inline-block;
+}
 #spec #feature .feature__text {
   font-size: 1.125rem;
   line-height: 1.56;
@@ -2260,7 +2277,7 @@ img {
   color: var(--color-black);
   text-align: left;
 }
-#spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container .feature__text span.sp_only {
+#spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.sp_only {
   display: inline-block;
 }
 /* #feature ここまで */
