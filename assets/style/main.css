@@ -1783,5 +1783,48 @@ img {
   text-align: left;
   margin-top: 1.9375rem;
 }
+
+@media (min-width:768px) {
+  #spec #main-visual .main-visual__container {
+    width: calc(100% - 12.5rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  #spec #main-visual .sp_only.main-visual__photo {
+    display: none;
+  }
+  #spec #main-visual .pc_only.main-visual__photo {
+    display: inline-block;
+    width: 100%;
+    aspect-ratio: 1200 / 550;
+    object-fit: cover;
+    border-radius: 24px;
+    overflow: hidden;
+    vertical-align: top;
+    margin-top: 2.5rem;
+  }
+  #spec #main-visual .main-visual__title {
+    font-size: 2.25rem;
+    line-height: .97;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: var(--color-black);
+    text-align: left;
+    margin-top: 0;
+  }
+  #spec #main-visual .main-visual__title-container {
+    width: 20.4375rem;
+    height: 7.0625rem;
+    background-color: var(--color-white);
+    border-radius: 0px 24px 0px 0px;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* #main-visual ここまで */
 /* #spec ここまで */
