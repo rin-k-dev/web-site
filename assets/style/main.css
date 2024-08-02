@@ -2269,7 +2269,7 @@ img {
   margin-top: 0.8125rem;
   display: inline-block;
 }
-#spec #feature .feature__text {
+#spec #feature .sp_only.feature__text {
   font-size: 1.125rem;
   line-height: 1.56;
   font-weight: 700;
@@ -2277,8 +2277,75 @@ img {
   color: var(--color-black);
   text-align: left;
 }
+#spec #feature .pc_only.feature__text {
+  display: none;
+}
 #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.sp_only {
   display: inline-block;
+}
+
+@media (min-width:768px) {
+  #spec #feature .feature__wrapper {
+    margin-top: 2.1875rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.9375rem;
+  }
+  #spec #feature .feature__wrapper .feature__content:nth-child(2) {
+    margin-top: 0;
+  }
+  #spec #feature .feature__wrapper .feature__content:nth-child(3) {
+    margin-top: 0;
+  }
+  #spec #feature .feature__photo-container {
+    width: 15.375rem;
+    height: 9.375rem;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  #spec #feature .sp_only.feature__photo {
+    display: none;
+  }
+  #spec #feature .pc_only.feature__photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 246 / 150;
+  }
+  #spec #feature .feature__text-container {
+    margin-top: 0.8438rem;
+  }
+  #spec #feature .feature__wrapper .feature__content:first-child .feature__text-container {
+    margin-top: 0.8125rem;
+    display: inline-block;
+  }
+  #spec #feature .feature__wrapper .feature__content:nth-child(2) .feature__text-container {
+    margin-top: 0.8125rem;
+    display: inline-block;
+  }
+  #spec #feature .feature__wrapper .feature__content:nth-child(3) .feature__text-container {
+    margin-top: 0.8125rem;
+    display: inline-block;
+  }
+  #spec #feature .sp_only.feature__text {
+    display: none;
+  }
+  #spec #feature .pc_only.feature__text {
+    display: inline-block;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+  }
+  #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.sp_only {
+    display: none;
+  }
+  #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.pc_only {
+    display: block;
+  }
 }
 /* #feature ここまで */
 
