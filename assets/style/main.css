@@ -1756,6 +1756,13 @@ img {
 /* #footer ここまで */
 
 /* #spec ここから */
+/* #header 追記 ここから */
+@media (min-width:768px) {
+  #header .header__menu .header__menu-link.header__current-page {
+    color: var(--color-green-dark);
+  }
+}
+/* #header 追記 ここまで */
 /* #main-visual ここから */
 #spec #main-visual .main-visual__container {
   width: calc(100% - 2rem);
