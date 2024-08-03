@@ -2628,6 +2628,39 @@ img {
     border-left: var(--color-green-dark) solid 3px;
     margin-top: 2.1875rem;
   }
+  #spec #spec-table .spec-table__table {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+  }
+  #spec #spec-table .spec-table__table th, #spec #spec-table .spec-table__table td {
+    border: var(--color-grey-light) solid 1px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.4375rem;
+    display: table-cell;
+  }
+  #spec #spec-table .spec-table__table th {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    padding-left: 1.1875rem;
+    background-color: #F5F5F5;
+    width: 27%;
+  }
+  #spec #spec-table .spec-table__table td {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    padding-left: 1.375rem;
+    background-color: var(--color-white);
+  }
 }
 
 @media (min-width:768px) and (max-width:1200px) {
@@ -2672,6 +2705,39 @@ img {
     padding-bottom: 0.5313rem;
     border-left: var(--color-green-dark) solid 3px;
     margin-top: 2.1875rem;
+  }
+  #spec #spec-table .spec-table__table {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+  }
+  #spec #spec-table .spec-table__table th, #spec #spec-table .spec-table__table td {
+    border: var(--color-grey-light) solid 1px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.4375rem;
+    display: table-cell;
+  }
+  #spec #spec-table .spec-table__table th {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    padding-left: 1.1875rem;
+    background-color: #F5F5F5;
+    width: 27%;
+  }
+  #spec #spec-table .spec-table__table td {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--color-black);
+    text-align: left;
+    padding-left: 1.375rem;
+    background-color: var(--color-white);
   }
 }
 /* #spec-table ここまで */
