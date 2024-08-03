@@ -2880,6 +2880,8 @@ img {
   width: 100%;
   background-image: url("../image/spec/contact_sp.png");
   background-size: cover;
+  aspect-ratio: 390 / 360;
+  margin-top: 4rem;
 }
 /* #contact ここまで */
 /* #spec ここまで */
