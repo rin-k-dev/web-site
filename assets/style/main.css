@@ -3063,6 +3063,45 @@ img {
 #faq #faq-list .faq-list__container {
   width: calc(100% - 2rem);
   margin: 0 auto;
+  margin-top: 2.3125rem;
+}
+#faq #faq-list .faq-list__accordion-item {
+  width: 100%;
+  border: #cccccc solid 1px;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 21px 24px 23px 25px;
+}
+#faq #faq-list .faq-list__accordion-header-question-container {
+  display: flex;
+  gap: 14px;
+}
+#faq #faq-list .faq-list__accordion-header-question-text {
+  font-size: 1.5rem;
+  line-height: .875;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--color-green-dark);
+}
+#faq #faq-list .faq-list__accordion-header-category-container {
+  width: 6.25rem;
+  border: var(--color-green-dark) solid 1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#faq #faq-list .faq-list__accordion-header-category-text {
+  display: inline-block;
+  font-size: 0.6875rem;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--color-green-dark);
+  padding: 0.1875rem 0.625rem 0.25rem 0.625rem;
+  white-space: nowrap;
+  vertical-align: .1em;
+}
+#faq #faq-list .faq-list__accordion-header-icon {
+  font-size: 2.5rem;
 }
 /* #faq-list ここまで */
 /* #faq ここまで */
