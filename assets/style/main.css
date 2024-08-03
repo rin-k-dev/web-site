@@ -3072,6 +3072,9 @@ img {
   overflow: hidden;
   padding: 1.3125rem 0.9375rem 1.4375rem 1.5625rem;
 }
+#faq #faq-list .faq-list__accordion-header {
+  cursor: pointer;
+}
 #faq #faq-list .faq-list__accordion-header-question {
   display: flex;
   justify-content: space-between;
