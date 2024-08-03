@@ -2871,7 +2871,6 @@ img {
     padding-top: 1.5rem;
     padding-bottom: 1.3125rem;
   }
-
 }
 /* #spec-table ここまで */
 
@@ -2882,6 +2881,30 @@ img {
   background-size: cover;
   aspect-ratio: 390 / 360;
   margin-top: 4rem;
+  position: relative;
+}
+#spec #contact .contact__link-container {
+  cursor: pointer;
+  width: 91.79%;
+  height: 5rem;
+  border-radius: 40px;
+  border: var(--color-white) solid 2px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .3s ease-out;
+}
+#spec #contact .contact__link {
+  font-size: 1.25rem;
+  line-height: .95;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: var(--color-white);
 }
 /* #contact ここまで */
 /* #spec ここまで */
