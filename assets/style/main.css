@@ -2915,7 +2915,7 @@ img {
     background-image: url("../image/spec/contact_pc.png");
     background-size: cover;
     aspect-ratio: 1400 / 450;
-    margin-top: 4rem;
+    margin-top: 75px;
     position: relative;
   }
   #spec #contact .contact__link {
