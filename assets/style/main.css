@@ -2664,6 +2664,70 @@ img {
     background-color: var(--color-white);
     width: auto;
   }
+  #spec #spec-table .spec-table__table tr:first-child th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:first-child td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(2) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(2) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(3) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(3) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(4) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(4) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(5) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(5) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(6) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(6) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(7) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(7) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(8) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(8) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
 }
 
 @media (min-width:768px) and (max-width:1200px) {
@@ -2731,7 +2795,6 @@ img {
     padding-left: 1.1875rem;
     background-color: #F5F5F5;
     width: 27%;
-    height: 3.9375rem;
   }
   #spec #spec-table .spec-table__table td {
     font-size: 1rem;
@@ -2743,8 +2806,72 @@ img {
     padding-left: 1.375rem;
     background-color: var(--color-white);
     width: auto;
-    height: 3.9375rem;
   }
+  #spec #spec-table .spec-table__table tr:first-child th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:first-child td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(2) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(2) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(3) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(3) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(4) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(4) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(5) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(5) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(6) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(6) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(7) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(7) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(8) th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+  #spec #spec-table .spec-table__table tr:nth-child(8) td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3125rem;
+  }
+
 }
 /* #spec-table ここまで */
 /* #spec ここまで */
