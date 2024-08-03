@@ -2536,6 +2536,9 @@ img {
   height: 3px;
   background-color: var(--color-green-dark);
 }
+#spec #spec-table .spec-table__subcontainer {
+  width: 100%;
+}
 #spec #spec-table .spec-table__subtitle {
   font-size: 1.25rem;
   line-height: 1;
@@ -2547,6 +2550,97 @@ img {
   padding-bottom: 0.3125rem;
   border-left: var(--color-green-dark) solid 2px;
   margin-top: 1.5625rem;
+}
+
+@media (min-width:1201px) {
+  #spec #spec-table .spec-table__container {
+    width: calc(100% - 37.5rem);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  #spec #spec-table .spec-table__title-container {
+    margin-top: 4.3125rem;
+  }
+  #spec #spec-table .spec-table__title {
+    font-size: 1.75rem;
+    line-height: .79;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    padding-bottom: 1.8125rem;
+    border-bottom: var(--color-grey-light) 2px solid;
+    position: relative;
+  }
+  #spec #spec-table .spec-table__title::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 6.25rem;
+    height: 5px;
+    background-color: var(--color-green-dark);
+  }
+  #spec #spec-table .spec-table__subcontainer {
+    width: calc(100% - 3.75rem);
+    max-width: 740px;
+    margin: 0 auto;
+  }
+  #spec #spec-table .spec-table__subtitle {
+    font-size: 1.4375rem;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: var(--color-black);
+    padding-left: 1.125rem;
+    padding-top: 0.5313rem;
+    padding-bottom: 0.5313rem;
+    border-left: var(--color-green-dark) solid 3px;
+    margin-top: 2.1875rem;
+  }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+  #spec #spec-table .spec-table__container {
+    width: calc(100% - 2.5rem);
+    margin: 0 auto;
+  }
+  #spec #spec-table .spec-table__title-container {
+    margin-top: 4.3125rem;
+  }
+  #spec #spec-table .spec-table__title {
+    font-size: 1.75rem;
+    line-height: .79;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-black);
+    padding-bottom: 1.8125rem;
+    border-bottom: var(--color-grey-light) 2px solid;
+    position: relative;
+  }
+  #spec #spec-table .spec-table__title::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 6.25rem;
+    height: 5px;
+    background-color: var(--color-green-dark);
+  }
+  #spec #spec-table .spec-table__subcontainer {
+    width: calc(100% - 3.75rem);
+    max-width: 740px;
+    margin: 0 auto;
+  }
+  #spec #spec-table .spec-table__subtitle {
+    font-size: 1.4375rem;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: var(--color-black);
+    padding-left: 1.125rem;
+    padding-top: 0.5313rem;
+    padding-bottom: 0.5313rem;
+    border-left: var(--color-green-dark) solid 3px;
+    margin-top: 2.1875rem;
+  }
 }
 /* #spec-table ここまで */
 /* #spec ここまで */
