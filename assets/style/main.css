@@ -2563,6 +2563,7 @@ img {
   padding-bottom: 0.75rem;
   display: block;
   width: 100%;
+  height: 2.4375rem;
 }
 #spec #spec-table .spec-table__table th {
   font-size: 1rem;
@@ -2584,10 +2585,7 @@ img {
   padding-left: 1.1875rem;
   background-color: var(--color-white);
 }
-#spec #spec-table .spec-table__table tr:not(:first-child) th {
-  margin-top: -3px;
-  margin-bottom: -3px;
-}
+
 @media (min-width:1201px) {
   #spec #spec-table .spec-table__container {
     width: calc(100% - 37.5rem);
@@ -2641,7 +2639,7 @@ img {
   #spec #spec-table .spec-table__table th, #spec #spec-table .spec-table__table td {
     border: var(--color-grey-light) solid 1px;
     padding-top: 1.5rem;
-    padding-bottom: 1.4375rem;
+    padding-bottom: 1.5rem;
     display: table-cell;
   }
   #spec #spec-table .spec-table__table th {
@@ -2664,6 +2662,7 @@ img {
     text-align: left;
     padding-left: 1.375rem;
     background-color: var(--color-white);
+    width: auto;
   }
 }
 
@@ -2732,6 +2731,7 @@ img {
     padding-left: 1.1875rem;
     background-color: #F5F5F5;
     width: 27%;
+    height: 3.9375rem;
   }
   #spec #spec-table .spec-table__table td {
     font-size: 1rem;
@@ -2742,6 +2742,8 @@ img {
     text-align: left;
     padding-left: 1.375rem;
     background-color: var(--color-white);
+    width: auto;
+    height: 3.9375rem;
   }
 }
 /* #spec-table ここまで */
