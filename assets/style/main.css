@@ -3109,5 +3109,22 @@ img {
   font-size: 2.3125rem;
   margin-top: -0.9375rem;
 }
+#faq #faq-list .faq-list__accordion-header-title-container {
+  width: 16.5625rem;
+  margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 1.5625rem;
+  margin-top: -0.9375rem;
+}
+#faq #faq-list .faq-list__accordion-header-title {
+  font-size: 1rem;
+  line-height: 1.875;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--color-black);
+  margin-top: -7px;
+  margin-bottom: -7px;
+  text-align: left;
+}
 /* #faq-list ここまで */
 /* #faq ここまで */
