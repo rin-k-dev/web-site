@@ -2302,7 +2302,7 @@ img {
   #spec #feature .pc_only.feature__text {
     display: inline-block;
     font-size: 1.125rem;
-    line-height: 1.7;
+    line-height: 1.8;
     font-weight: 700;
     letter-spacing: 0;
     color: var(--color-black);
@@ -2314,7 +2314,7 @@ img {
     display: none;
   }
   #spec #feature .feature__wrapper .feature__content .feature__text-container .feature__text span.pc_only {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -2357,7 +2357,7 @@ img {
   #spec #feature .pc_only.feature__text {
     display: inline-block;
     font-size: 1.125rem;
-    line-height: 1.7;
+    line-height: 1.8;
     font-weight: 700;
     letter-spacing: 0;
     color: var(--color-black);
