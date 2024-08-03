@@ -2250,7 +2250,7 @@ img {
   display: none;
 }
 #spec #feature .feature__text-container {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 #spec #feature .sp_only.feature__text {
   font-size: 1.125rem;
