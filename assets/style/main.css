@@ -3060,6 +3060,9 @@ img {
 }
 
 /* #faq-list ここから */
-
+#faq #faq-list .faq-list__container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
 /* #faq-list ここまで */
 /* #faq ここまで */
