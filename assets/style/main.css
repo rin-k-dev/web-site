@@ -3070,7 +3070,11 @@ img {
   border: #cccccc solid 1px;
   border-radius: 16px;
   overflow: hidden;
-  padding: 21px 24px 23px 25px;
+  padding: 21px 15px 23px 25px;
+}
+#faq #faq-list .faq-list__accordion-header-question {
+  display: flex;
+  justify-content: space-between;
 }
 #faq #faq-list .faq-list__accordion-header-question-container {
   display: flex;
@@ -3085,6 +3089,7 @@ img {
 }
 #faq #faq-list .faq-list__accordion-header-category-container {
   width: 6.25rem;
+  height: 1.5rem;
   border: var(--color-green-dark) solid 1px;
   border-radius: 4px;
   overflow: hidden;
@@ -3101,7 +3106,8 @@ img {
   vertical-align: .1em;
 }
 #faq #faq-list .faq-list__accordion-header-icon {
-  font-size: 2.5rem;
+  font-size: 2.3125rem;
+  margin-top: -0.9375rem;
 }
 /* #faq-list ここまで */
 /* #faq ここまで */
