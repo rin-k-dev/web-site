@@ -2551,7 +2551,39 @@ img {
   border-left: var(--color-green-dark) solid 2px;
   margin-top: 1.5625rem;
 }
-
+#spec #spec-table .spec-table__table {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1.0625rem;
+  border-collapse: collapse;
+}
+#spec #spec-table .spec-table__table th, #spec #spec-table .spec-table__table td {
+  border: var(--color-grey-light) solid 1px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: block;
+  width: 100%;
+}
+#spec #spec-table .spec-table__table th {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--color-black);
+  text-align: left;
+  padding-left: 1.1875rem;
+  background-color: #F5F5F5;
+}
+#spec #spec-table .spec-table__table td {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--color-black);
+  text-align: left;
+  padding-left: 1.1875rem;
+  background-color: var(--color-white);
+}
 @media (min-width:1201px) {
   #spec #spec-table .spec-table__container {
     width: calc(100% - 37.5rem);
