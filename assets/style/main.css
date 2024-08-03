@@ -2883,13 +2883,18 @@ img {
   margin-top: 4rem;
   position: relative;
 }
-#spec #contact .contact__link-container {
+#spec #contact .contact__link {
   cursor: pointer;
+  font-size: 1.25rem;
+  line-height: .95;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: var(--color-white);
+  transition: all .3s ease-out;
   width: 91.79%;
   height: 5rem;
-  border-radius: 40px;
   border: var(--color-white) solid 2px;
-  overflow: hidden;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2899,12 +2904,9 @@ img {
   transform: translate(-50%, -50%);
   transition: all .3s ease-out;
 }
-#spec #contact .contact__link {
-  font-size: 1.25rem;
-  line-height: .95;
-  letter-spacing: 0;
-  font-weight: 700;
-  color: var(--color-white);
+#spec #contact .contact__link:hover {
+  background-color: var(--color-white);
+  color: var(--color-green-dark);
 }
 /* #contact ここまで */
 /* #spec ここまで */
