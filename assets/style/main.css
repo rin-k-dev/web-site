@@ -2876,7 +2876,11 @@ img {
 /* #spec-table ここまで */
 
 /* #contact ここから */
-
+#spec #contact .contact__container {
+  width: 100%;
+  background-image: url("../image/spec/contact_sp.png");
+  background-size: cover;
+}
 /* #contact ここまで */
 /* #spec ここまで */
 
