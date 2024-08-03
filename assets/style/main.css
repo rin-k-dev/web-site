@@ -3070,7 +3070,7 @@ img {
   border: #cccccc solid 1px;
   border-radius: 16px;
   overflow: hidden;
-  padding: 21px 15px 23px 25px;
+  padding: 1.3125rem 0.9375rem 1.4375rem 1.5625rem;
 }
 #faq #faq-list .faq-list__accordion-header-question {
   display: flex;
@@ -3078,7 +3078,7 @@ img {
 }
 #faq #faq-list .faq-list__accordion-header-question-container {
   display: flex;
-  gap: 14px;
+  gap: 0.875rem;
 }
 #faq #faq-list .faq-list__accordion-header-question-text {
   font-size: 1.5rem;
@@ -3122,9 +3122,21 @@ img {
   font-weight: 700;
   letter-spacing: 0;
   color: var(--color-black);
-  margin-top: -7px;
-  margin-bottom: -7px;
+  margin-top: -0.4375rem;
+  margin-bottom: -0.4375rem;
   text-align: left;
+}
+#faq #faq-list .faq-list__accordion-content-container {
+  padding-top: 0.625rem;
+}
+#faq-list .faq-list__accordion-content-text {
+  font-size: 1rem;
+  line-height: 1.8125;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-black);
+  margin-top: -0.4063rem;
+  margin-bottom: -0.4063rem;
 }
 /* #faq-list ここまで */
 /* #faq ここまで */
