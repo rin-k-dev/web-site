@@ -3064,6 +3064,7 @@ img {
   width: calc(100% - 2rem);
   margin: 0 auto;
   margin-top: 2.3125rem;
+  padding-bottom: 10.625rem;
 }
 #faq #faq-list .faq-list__wrapper {
   display: flex;
@@ -3182,6 +3183,7 @@ img {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 3.8125rem;
+    padding-bottom: 4.5rem;
   }
   #faq #faq-list .faq-list__wrapper {
     display: flex;
@@ -3300,6 +3302,7 @@ img {
     width: calc(100% - 2.5rem);
     margin: 0 auto;
     margin-top: 3.8125rem;
+    padding-bottom: 4.5rem;
   }
   #faq #faq-list .faq-list__wrapper {
     display: flex;
