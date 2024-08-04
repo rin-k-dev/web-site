@@ -3147,7 +3147,7 @@ img {
   padding-top: 0.625rem;
   width: 96.2%;
 }
-#faq-list .faq-list__accordion-content-text {
+#faq #faq-list .faq-list__accordion-content-text {
   font-size: 1rem;
   line-height: 1.8125;
   letter-spacing: 0;
@@ -3155,6 +3155,13 @@ img {
   color: var(--color-black);
   margin-top: -0.4063rem;
   margin-bottom: -0.4063rem;
+}
+#faq #faq-list .sp_only.faq-list__accordion-content-text span {
+  display: inline-block;
+  white-space: nowrap;
+}
+#faq #faq-list .pc_only.faq-list__accordion-content-text {
+  display: none;
 }
 /* #faq-list ここまで */
 /* #faq ここまで */
