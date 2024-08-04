@@ -3143,18 +3143,29 @@ img {
   margin-bottom: -0.4375rem;
   text-align: left;
 }
+#faq #faq-list .sp_only.faq-list__accordion-header-title {
+  display: inline-block;
+  margin-top: 0;
+}
+#faq #faq-list .sp_only.faq-list__accordion-header-title span {
+  display: block;
+  white-space: nowrap;
+}
+#faq #faq-list .pc_only.faq-list__accordion-header-title {
+  display: none;
+}
 #faq #faq-list .faq-list__accordion-content-container {
   padding-top: 0.625rem;
   width: 96.2%;
 }
 #faq #faq-list .faq-list__accordion-content-text {
   font-size: 1rem;
-  line-height: 1.8125;
+  line-height: 1.8;
   letter-spacing: 0;
   font-weight: 400;
   color: var(--color-black);
-  margin-top: -0.4063rem;
-  margin-bottom: -0.4063rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
   text-align: left;
 }
 #faq #faq-list .sp_only.faq-list__accordion-content-text span {
@@ -3182,7 +3193,7 @@ img {
     border: #cccccc solid 1px;
     border-radius: 16px;
     overflow: hidden;
-    padding: 24px 32px 21px;
+    padding: 1.5rem 2rem 1.1875rem;
   }
   #faq #faq-list .faq-list__accordion-header {
     cursor: pointer;
@@ -3240,7 +3251,7 @@ img {
     margin: 0 auto;
     padding-left: 2.5rem;
     padding-right: 0;
-    margin-top: 0.625rem;
+    margin-top: 0;
   }
   #faq #faq-list .faq-list__accordion-header-title {
     font-size: 1.125rem;
@@ -3252,18 +3263,28 @@ img {
     margin-bottom: -0.4375rem;
     text-align: left;
   }
+  #faq #faq-list .sp_only.faq-list__accordion-header-title {
+    display: none;
+  }
+  #faq #faq-list .sp_only.faq-list__accordion-header-title span {
+    display: none
+  }
+  #faq #faq-list .pc_only.faq-list__accordion-header-title {
+    display: inline-block;
+    margin-top: 0;
+  }
   #faq #faq-list .faq-list__accordion-content-container {
-    padding-top: 2rem;
+    padding-top: 1.8125rem;
     width: 100%;
   }
   #faq #faq-list .faq-list__accordion-content-text {
     font-size: 1rem;
-    line-height: 1.875;
+    line-height: 1.8;
     letter-spacing: 0;
     font-weight: 400;
     color: var(--color-black);
-    margin-top: -0.4375rem;
-    margin-bottom: -0.4375rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
     text-align: left;
   }
   #faq #faq-list .sp_only.faq-list__accordion-content-text {
@@ -3290,7 +3311,7 @@ img {
     border: #cccccc solid 1px;
     border-radius: 16px;
     overflow: hidden;
-    padding: 24px 32px 21px;
+    padding: 1.5rem 2rem 1.1875rem;
   }
   #faq #faq-list .faq-list__accordion-header {
     cursor: pointer;
@@ -3348,7 +3369,7 @@ img {
     margin: 0 auto;
     padding-left: 2.5rem;
     padding-right: 0;
-    margin-top: 0.625rem;
+    margin-top: 0;
   }
   #faq #faq-list .faq-list__accordion-header-title {
     font-size: 1.125rem;
@@ -3360,18 +3381,28 @@ img {
     margin-bottom: -0.4375rem;
     text-align: left;
   }
+  #faq #faq-list .sp_only.faq-list__accordion-header-title {
+    display: none;
+  }
+  #faq #faq-list .sp_only.faq-list__accordion-header-title span {
+    display: none
+  }
+  #faq #faq-list .pc_only.faq-list__accordion-header-title {
+    display: inline-block;
+    margin-top: 0;
+  }
   #faq #faq-list .faq-list__accordion-content-container {
-    padding-top: 2rem;
+    padding-top: 1.8125rem;
     width: 100%;
   }
   #faq #faq-list .faq-list__accordion-content-text {
     font-size: 1rem;
-    line-height: 1.875;
+    line-height: 1.8;
     letter-spacing: 0;
     font-weight: 400;
     color: var(--color-black);
-    margin-top: -0.4375rem;
-    margin-bottom: -0.4375rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
     text-align: left;
   }
   #faq #faq-list .sp_only.faq-list__accordion-content-text {
@@ -3380,7 +3411,6 @@ img {
   #faq #faq-list .pc_only.faq-list__accordion-content-text {
     display: inline-block;
   }
-
 }
 /* #faq-list ここまで */
 /* #faq ここまで */
