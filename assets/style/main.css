@@ -3155,6 +3155,7 @@ img {
   color: var(--color-black);
   margin-top: -0.4063rem;
   margin-bottom: -0.4063rem;
+  text-align: left;
 }
 #faq #faq-list .sp_only.faq-list__accordion-content-text span {
   display: inline-block;
