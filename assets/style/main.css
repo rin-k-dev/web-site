@@ -3145,6 +3145,7 @@ img {
 }
 #faq #faq-list .faq-list__accordion-content-container {
   padding-top: 0.625rem;
+  width: 96.2%;
 }
 #faq-list .faq-list__accordion-content-text {
   font-size: 1rem;
