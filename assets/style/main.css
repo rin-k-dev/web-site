@@ -3182,7 +3182,7 @@ img {
     border: #cccccc solid 1px;
     border-radius: 16px;
     overflow: hidden;
-    padding: 24px 32px;
+    padding: 24px 32px 21px;
   }
   #faq #faq-list .faq-list__accordion-header {
     cursor: pointer;
@@ -3238,9 +3238,9 @@ img {
   #faq #faq-list .faq-list__accordion-header-title-container {
     width: 100%;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 2.5rem;
     padding-right: 0;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
   #faq #faq-list .faq-list__accordion-header-title {
     font-size: 1.125rem;
@@ -3253,25 +3253,24 @@ img {
     text-align: left;
   }
   #faq #faq-list .faq-list__accordion-content-container {
-    padding-top: 0.625rem;
-    width: 96.2%;
+    padding-top: 2rem;
+    width: 100%;
   }
   #faq #faq-list .faq-list__accordion-content-text {
     font-size: 1rem;
-    line-height: 1.8125;
+    line-height: 1.875;
     letter-spacing: 0;
     font-weight: 400;
     color: var(--color-black);
-    margin-top: -0.4063rem;
-    margin-bottom: -0.4063rem;
+    margin-top: -0.4375rem;
+    margin-bottom: -0.4375rem;
     text-align: left;
   }
-  #faq #faq-list .sp_only.faq-list__accordion-content-text span {
-    display: inline-block;
-    white-space: nowrap;
+  #faq #faq-list .sp_only.faq-list__accordion-content-text {
+    display: none;
   }
   #faq #faq-list .pc_only.faq-list__accordion-content-text {
-    display: none;
+    display: inline-block;
   }
 }
 /* #faq-list ここまで */
