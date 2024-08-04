@@ -11,4 +11,12 @@ $(document).ready(function () {
     dotsClass: "gallery__dots",
     arrows: false
   });
+
+  $(".faq-list__accordion-header").click(function () {
+    const content = $(this).next(".faq-list__accordion-content");
+    const icon = $(this).find(".faq-list__accordion-header-icon i");
+
+    content.slideToggle();
+    icon.toggleClass("bi-plus bi-dash")
+  });
 });

@@ -3176,6 +3176,9 @@ img {
 #faq #faq-list .pc_only.faq-list__accordion-content-text {
   display: none;
 }
+#faq #faq-list .faq-list__accordion-content {
+  display: none;
+}
 
 @media(max-width:767px) {
   #faq #faq-list .faq-list__wrapper .faq-list__accordion-item:nth-child(2) {
