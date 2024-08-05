@@ -2235,7 +2235,7 @@ img {
 }
 #spec #feature .feature__photo-container {
   width: 100%;
-  height: 12.5rem;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
 }
