@@ -2245,6 +2245,7 @@ img {
   width: 100%;
   height: 100%;
   aspect-ratio: 358 / 200;
+  object-fit: cover;
 }
 #spec #feature .pc_only.feature__photo {
   display: none;
@@ -2291,6 +2292,7 @@ img {
     width: 100%;
     height: 100%;
     aspect-ratio: 246 / 150;
+    object-fit: cover;
   }
   #spec #feature .feature__text-container {
     margin-top: 0.8125rem;
@@ -2346,6 +2348,7 @@ img {
     width: 100%;
     height: 100%;
     aspect-ratio: 246 / 150;
+    object-fit: cover;
   }
   #spec #feature .feature__text-container {
     margin-top: 0.8125rem;
