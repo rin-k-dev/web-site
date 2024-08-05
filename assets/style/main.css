@@ -2411,14 +2411,14 @@ img {
   line-height: .875;
   font-weight: 700;
   letter-spacing: 0;
-  color: var(--color-black);
+  color: var(--color-green-dark);
 }
 #spec #price .price__text .price__tax {
   font-size: 1rem;
   line-height: 1.125;
   font-weight: 700;
   letter-spacing: 0;
-  color: var(--color-black);
+  color: var(--color-green-dark);
 }
 
 @media (min-width:1201px) {
@@ -2456,14 +2456,14 @@ img {
     line-height: .75;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--color-black);
+    color: var(--color-green-dark);
   }
   #spec #price .price__text .price__tax {
     font-size: 1rem;
     line-height: 1;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--color-black);
+    color: var(--color-green-dark);
   }
 }
 
@@ -2501,14 +2501,14 @@ img {
     line-height: .75;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--color-black);
+    color: var(--color-green-dark);
   }
   #spec #price .price__text .price__tax {
     font-size: 1rem;
     line-height: 1;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--color-black);
+    color: var(--color-green-dark);
   }
 }
 /* #price ここまで */
